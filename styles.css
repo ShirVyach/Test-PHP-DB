@@ -1,0 +1,35 @@
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/64/64673.png");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding: 0px 0px 0px 40px;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 30%;
+}
+table {
+    border: 1px solid #69c;
+}
+th {
+    font-weight: normal;
+    color: #039;
+    padding: 10px;
+}
+td {
+    color: #669;
+    border-top: 1px dashed white;
+    padding: 10px;
+    background:#ccddff;
+}
+tr:hover td {
+    background: #99bcff;
+}
